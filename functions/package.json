@@ -27,7 +27,7 @@
     "express": "^4.17.1",
     "firebase-admin": "^8.8.0",
     "firebase-functions": "^3.3.0",
-    "gsap": "^3.0.4",
+    "gsap": "^3.6.0",
     "helmet": "^3.16.0",
     "lodash": "^4.17.11",
     "lodash.debounce": "^4.0.8",
