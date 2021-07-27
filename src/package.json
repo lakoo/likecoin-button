@@ -30,7 +30,7 @@
     "core-js": "^2.6.5",
     "firebase-admin": "^8.8.0",
     "firebase-functions": "^3.3.0",
-    "gsap": "^3.0.4",
+    "gsap": "^3.6.0",
     "intersection-observer": "^0.7.0",
     "lodash.debounce": "^4.0.8",
     "nuxt": "^2.8.1",
