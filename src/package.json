@@ -31,7 +31,7 @@
     "bech32": "^2.0.0",
     "classlist-polyfill": "^1.2.0",
     "core-js": "^2.6.5",
-    "firebase-admin": "^10.3.0",
+    "firebase-admin": "^11.4.1",
     "firebase-functions": "^3.24.0",
     "gsap": "^3.0.4",
     "intersection-observer": "^0.7.0",
