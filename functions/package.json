@@ -29,7 +29,7 @@
     "cookie-parser": "^1.4.4",
     "core-js": "^2.6.5",
     "express": "^4.17.1",
-    "firebase-admin": "^10.3.0",
+    "firebase-admin": "^11.4.1",
     "firebase-functions": "^3.24.0",
     "gsap": "^3.0.4",
     "helmet": "^3.16.0",
