@@ -73,7 +73,7 @@
     "eslint-plugin-standard": ">=4.0.0",
     "eslint-plugin-vue": "^5.2.2",
     "node-sass": "^6.0.1",
-    "pug": "^2.0.3",
+    "pug": "^3.0.1",
     "pug-plain-loader": "^1.0.0",
     "react-is": "^16.13.1",
     "sass-loader": "^10.1.1",
