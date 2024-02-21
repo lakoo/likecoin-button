@@ -27,7 +27,7 @@
     "@likecoin/nuxt-google-optimize": "^0.5.3-like.11",
     "@likecoin/ui-vue": "^0.7.1",
     "@nuxtjs/sentry": "^5.1.7",
-    "axios": "^0.21.2",
+    "axios": "^0.28.0",
     "bech32": "^2.0.0",
     "classlist-polyfill": "^1.2.0",
     "core-js": "^2.6.5",
