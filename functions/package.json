@@ -28,7 +28,7 @@
     "compression": "^1.7.3",
     "cookie-parser": "^1.4.4",
     "core-js": "^2.6.5",
-    "express": "^4.17.3",
+    "express": "^4.19.2",
     "firebase-admin": "^11.5.0",
     "firebase-functions": "^4.2.1",
     "gsap": "^3.0.4",
