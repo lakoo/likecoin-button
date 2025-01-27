@@ -57,7 +57,7 @@
     "@storybook/addon-essentials": "^6.0.28",
     "@storybook/addon-knobs": "^6.0.28",
     "@storybook/addon-links": "^6.0.28",
-    "@storybook/vue": "^6.0.28",
+    "@storybook/vue": "^6.5.9",
     "babel-eslint": "^10.0.1",
     "babel-loader": "^8.1.0",
     "eslint": "^7.0.0",
