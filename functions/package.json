@@ -33,7 +33,7 @@
     "firebase-functions": "^4.2.1",
     "gsap": "^3.0.4",
     "helmet": "^3.16.0",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.21",
     "lodash.debounce": "^4.0.8",
     "node-fetch-native": "^1.0.1",
     "nuxt-start": "^2.17.2",
