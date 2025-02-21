@@ -23,8 +23,6 @@ function getLikeCoinButtonHeaders({
 
 export const apiGetUserMinById = id => axios.get(`${LIKECOIN_API}/users/id/${id}/min`);
 
-export const apiGetURLToISCNMapping = (likerId, referrer) => axios.get(`${LIKECOIN_API}/like/iscn/mapping?liker_id=${encodeURIComponent(likerId)}&url=${encodeURIComponent(referrer)}`);
-
 export const apiGetLikeButtonMyStatus = (id, data) => {
   const {
     referrer = '',

@@ -20,7 +20,6 @@ import {
   apiPostLikeButton,
   apiPostSuperLike,
   apiGetUserMinById,
-  apiGetURLToISCNMapping,
   apiGetLikeButtonTotalCount,
   apiGetLikeButtonMyStatus,
   apiGetLikeButtonSelfCount,
@@ -134,20 +133,6 @@ export default {
     if (checkIsValidISCNId(id)) {
       iscnId = id;
     } else if (id !== 'iscn') {
-      const mappingDataRes = await apiGetURLToISCNMapping(id, referrer).catch((err) => {
-        if (!(err.response && err.response.status === 404)) {
-          console.error(JSON.stringify({ // eslint-disable-line no-console
-            message: err,
-            stack: err.stack,
-          }));
-        }
-      });
-      if (mappingDataRes && mappingDataRes.data) {
-        // TODO: use iscnId instead of composing from prefix and id
-        const { iscnPrefix, iscnVersion } = mappingDataRes.data;
-        iscnId = `${iscnPrefix}/${iscnVersion}`;
-      }
-
       if (!iscnId) {
         const { data } = await apiGetUserMinById(id).catch((err) => {
           if (!(err.response && err.response.status === 404)) {
